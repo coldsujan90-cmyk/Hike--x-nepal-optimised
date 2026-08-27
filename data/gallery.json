@@ -1,0 +1,15 @@
+{
+  "photos": [
+    { "src": "assets/images/gallery/himalayan-landscape.jpg", "alt": "Himalayan landscape in Nepal" },
+    { "src": "assets/images/gallery/trekking-trail.jpg", "alt": "Trekking trail in Nepal" },
+    { "src": "assets/images/gallery/mountain-village.jpg", "alt": "Mountain village in Nepal" },
+    { "src": "assets/images/gallery/culture.jpg", "alt": "Cultural architecture in Nepal" },
+    { "src": "assets/images/gallery/dance.jpg", "alt": "Traditional cultural dance in Nepal" },
+    { "src": "assets/images/gallery/trail.jpg", "alt": "Trail through Nepal hills" },
+    { "src": "assets/images/gallery/photo.jpg", "alt": "Nepal travel moment" },
+    { "src": "assets/images/gallery/stone.jpg", "alt": "Stone path in Nepal" },
+    { "src": "assets/images/gallery/himal.jpg", "alt": "Himalayan mountain view" },
+    { "src": "assets/images/gallery/kathmandu-valley.jpg", "alt": "Kathmandu Valley scene" },
+    { "src": "assets/images/gallery/temple-bell.jpg", "alt": "Temple bell in Nepal" }
+  ]
+}

@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images/gallery"
+public_folder: "assets/images/gallery"
+
+collections:
+  - name: "gallery"
+    label: "Photo Gallery"
+    files:
+      - file: "data/gallery.json"
+        label: "Gallery Photos"
+        name: "gallery"
+        fields:
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.alt}}"
+            fields:
+              - { label: "Image", name: "src", widget: "image" }
+              - { label: "Description / Alt text", name: "alt", widget: "string" }

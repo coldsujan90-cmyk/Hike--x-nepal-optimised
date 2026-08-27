@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepal Treks | Hike X Nepal</title>
+    <meta name="description" content="Compare Hike X Nepal trekking options including Everest Base Camp, Annapurna Base Camp, Langtang Valley, Mardi Himal, Manaslu Circuit and Upper Mustang.">
+    <link rel="icon" type="image/png" href="../assets/images/logo/logo.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-root="..">
+    <header class="site-header inner-page" id="siteHeader">
+        <div class="container nav-container">
+            <a class="brand" href="../index.html"><img src="../assets/images/logo/header-logo.png" alt="Hike X Nepal" width="420" height="140"><span>Explore Beyond</span></a>
+            <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+                <a href="../index.html" class="nav-link">Home</a><a href="treks.html" class="nav-link active">Treks</a><a href="tours.html" class="nav-link">Tours</a><a href="../index.html#experiences" class="nav-link">Experiences</a><a href="about.html" class="nav-link">About</a><a href="travel-guide.html" class="nav-link">Travel Guide</a><a href="gallery.html" class="nav-link">Gallery</a><a href="contact.html" class="nav-link">Contact</a><a href="../index.html#inquiry" class="nav-cta">Plan Your Trip</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle" type="button" aria-label="Open navigation menu" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="container"><span class="section-kicker">Trekking packages</span><h1>Find a Nepal trek that fits your pace.</h1><p>Browse the existing Hike X Nepal trekking routes with real package inquiry language and no invented prices.</p></div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <form class="trek-finder" data-package-filter data-source="treks" data-target="allTreks" data-count="resultsCount">
+                    <h2 id="finderTitle">Find Your Perfect Trek</h2>
+                    <div class="finder-grid">
+                        <label>Region<select id="filterRegion" name="region"><option value="">All Regions</option></select></label>
+                        <label>Duration<select id="filterDuration" name="duration"><option value="">Any Duration</option><option value="short">Up to 8 days</option><option value="medium">9-12 days</option><option value="long">13+ days</option></select></label>
+                        <label>Difficulty<select id="filterDifficulty" name="difficulty"><option value="">Any Difficulty</option><option>Moderate</option><option>Challenging</option></select></label>
+                        <label>Maximum altitude<select id="filterAltitude" name="altitude"><option value="">Any Altitude</option><option value="4500">Up to 4,500 m</option><option value="5000">Up to 5,000 m</option><option value="5500">Up to 5,500 m</option></select></label>
+                        <label>Budget<select id="filterBudget" name="price"><option value="">Any Budget</option><option value="contact">Contact for Price</option></select></label>
+                        <label>Best season<select id="filterSeason" name="season"><option value="">Any Season</option><option value="spring">Spring</option><option value="autumn">Autumn</option><option value="monsoon">Monsoon-friendly</option></select></label>
+                    </div>
+                    <button class="btn btn-primary" id="findTreksButton" type="submit">Find Treks</button>
+                </form>
+                <p id="resultsCount" class="results-count"></p>
+                <div class="trek-grid" id="allTreks"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><div class="container footer-bottom"><p>&copy; <span id="currentYear">2026</span> Hike X Nepal.</p><nav class="footer-legal"><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav></div></footer>
+    <a class="whatsapp-float" href="https://wa.me/9779843931104?text=Hello%20Hike%20X%20Nepal%2C%20I%20am%20interested%20in%20planning%20a%20trip%20to%20Nepal.">WhatsApp</a>
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Back to top">↑</button>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>
